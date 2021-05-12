@@ -22,8 +22,6 @@ public class MyClass {
          * and are then loaded from the local repository.
          *
          * pom is a xml file where we put all dependencies.
-         *
-         *
          */
 
 
