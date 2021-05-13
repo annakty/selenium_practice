@@ -81,7 +81,6 @@ public class Kickoff {
         String pageUrl= driver.getCurrentUrl();
         Assert.assertEquals(url,pageUrl,"Page URL is not as expected");
 
-
         /**
          * To close a webpage
          * Method 1: close()
@@ -91,7 +90,7 @@ public class Kickoff {
          *      used in the end of each test case!
          */
 
-        //driver.close();
+        driver.close();
         driver.quit();
 
 
