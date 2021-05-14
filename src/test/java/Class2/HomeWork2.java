@@ -14,9 +14,7 @@ public class HomeWork2 {
 
         System.setProperty("webdriver.chrome.driver","./driver/chromedriver");
         WebDriver driver = new ChromeDriver();
-
         driver.get("https://www.facebook.com/");
-
 
         Thread.sleep(2000);
 
